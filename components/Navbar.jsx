@@ -8,7 +8,7 @@ function Navbar() {
                     <Image src="/aachal-resort-logo.png" alt="resort logo" height={80} width={80}/>
                     {/* <span className="ml-3 text-xl">Tailblocks</span> */}
                 </a>
-                <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center gap-5 justify-center font-semibold text-xl">
+                <nav className="md:ml-auto ml-auto md:mr-auto mr-auto flex flex-wrap items-center text-base justify-center font-semibold md:font-bold md:text-2xl md:gap-6">
                     <Link href={"/"} className="mr-5 hover:text-sky-600">Home</Link>
                     <Link href={"/"} className="mr-5 hover:text-sky-600">About Us</Link>
                     <Link href={"/"} className="mr-5 hover:text-sky-600">Contact</Link>
