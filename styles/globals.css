@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+@font-face {
+  font-family: 'greatvibes-regular';
+  src: url('/fonts/greatvibes-regular.woff') format('truetype'); /* Adjust if your font file format differs */
+  font-weight: normal;
+  font-style: normal;
+}
