@@ -323,11 +323,11 @@ const Navbar = () => {
       </div>
 
       {/* Logo */}
-      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="absolute top-0 ml-28 md:left-1/2 md:transform md:-translate-x-1/2 z-50">
         <Link href="/">
           <img
             src="/aachal-resort-logo.png"
-            alt="Squirrel Resort Logo"
+            alt=" Resort Logo"
             className="w-16 h-16 object-contain md:w-28 md:h-28" // Smaller size on mobile
           />
         </Link>
@@ -336,7 +336,7 @@ const Navbar = () => {
       {/* Hamburger Menu Button */}
       <button
         onClick={toggleMenu}
-        className="absolute top-4 left-4 text-white bg-aqua px-3 py-2 rounded focus:outline-none z-50"
+        className="absolute top-0 left-0 text-white bg-aqua px-3 py-2 rounded focus:outline-none z-50"
       >
         {isOpen ? <FaTimes size={32} /> : <FaBars size={32} />}
       </button>
@@ -344,7 +344,7 @@ const Navbar = () => {
       {/* Reserve Your Room Button */}
       <Link
         href="/reserve"
-        className="absolute right-4 top-4 text-gray-700 font-sans text-sm md:text-lg leading-loose px-4 py-2 rounded font-medium bg-customTeal transition-all"
+        className="absolute right-0 top-0 text-gray-700 font-sans text-sm md:text-lg leading-loose px-4 py-2 rounded font-medium bg-customTeal transition-all"
       >
         RESERVE YOUR ROOM
       </Link>
