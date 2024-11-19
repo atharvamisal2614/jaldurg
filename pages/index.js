@@ -1,7 +1,12 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
-import Header from "@/components/Header";
+import IntroSection from "@/components/IntroSection";
+import AccommodationSlider from "@/components/Accomodation";
+import Experiences from "@/components/Experiences";
+import Events from "@/components/Events";
+import ExiteSense from "@/components/ExciteSense";
+import ContactUs from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -18,7 +23,15 @@ export default function Home() {
   return (
     <>
 <Navbar />
-<Header />
+<IntroSection />
+<AccommodationSlider />
+<Experiences />
+<Events/>
+<ExiteSense/>
+<ContactUs />
+<Footer />
+
+
 </>
   );
 }
