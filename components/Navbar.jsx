@@ -323,15 +323,15 @@ const Navbar = () => {
       </div>
 
       {/* Logo */}
-      <div className="absolute top-0 ml-28 md:left-1/2 md:transform md:-translate-x-1/2 z-50">
+      {/* <div className="absolute  left-1/2 transform -translate-x-1/2 z-50">
         <Link href="/">
           <img
             src="/aachal-resort-logo.png"
             alt=" Resort Logo"
-            className="w-16 h-16 object-contain md:w-28 md:h-28" // Smaller size on mobile
+            className="w-16 h-16 object-contain md:w-28 md:h-28" 
           />
         </Link>
-      </div>
+      </div> */}
 
       {/* Hamburger Menu Button */}
       <button
