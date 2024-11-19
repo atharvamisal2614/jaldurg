@@ -8,7 +8,7 @@ const Experiences = () => {
       TRANSCENDENT EXPERIENCES
       </h2>
      {/* Description with centered margin */}
-     <div className="xlsb__description text-gray-600 text-lg md:text-xl leading-relaxed line-clamp-6 text-center md:mx-[30%] my-6">
+     <div className="xlsb__description text-gray-600 text-lg md:text-xl leading-relaxed line-clamp-6 text-justify md:text-center md:mx-[30%] my-6">
      Amilla is a holistic hideaway with unparalleled immersive aqua activities to embrace the Indian Ocean, from scuba diving to our famous Hanifaru Bay snorkelling adventures. Soulful culinary, active adventures and cultural excursions fascinate, expanding horizons. Our personalisable daily itineraries craft unique experiences specific to your interests and what style your holiday intends to be.
       </div>
       {/* Background image */}
@@ -17,7 +17,7 @@ const Experiences = () => {
           decoding="async"
           loading="lazy"
           className="image lazy xlsb__slides-background object-cover w-full h-full"
-          src="https://amilla.com/wp-content/uploads/2023/05/home-experiences-jet-skis-scaled-1.jpg"
+          src="/images/aachal-header.jpg"
           alt="A Poolside View of our Luxury Villas in the Maldives"
           title="home-accommodations-lagoon"
           layout="responsive"

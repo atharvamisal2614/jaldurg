@@ -9,7 +9,7 @@ const Events = () => {
       </h2>
 
       {/* Description with centered margin */}
-      <div className="text-gray-600 text-lg md:text-xl leading-relaxed text-center md:mx-[30%] my-6">
+      <div className="text-gray-600 text-lg md:text-xl leading-relaxed text-justify md:text-center md:mx-[30%] my-6">
         The pinnacle of tranquillity, escape to the Baa Atoll in the Maldives.
         Embrace the slow life with thoughtful experiences and abundant
         opportunities to reconnect with nature. Spend your summer in enriching
@@ -24,7 +24,7 @@ const Events = () => {
             decoding="async"
             loading="lazy"
             className="object-cover w-full h-72 rounded-md shadow-md"
-            src="https://amilla.com/wp-content/uploads/2023/05/home-accommodations-lagoon-1-scaled.jpg"
+            src="/images/aachal-event-1.jpg"
             alt="Lagoon View"
             layout="responsive"
             width={400}
@@ -41,7 +41,7 @@ const Events = () => {
             decoding="async"
             loading="lazy"
             className="object-cover w-full h-72 rounded-md shadow-md"
-            src="https://amilla.com/wp-content/uploads/2023/05/home-accomodations-estate-2x.jpg"
+             src="/images/aachal-event-2.jpg"
             alt="Estate View"
             layout="responsive"
             width={400}
@@ -58,7 +58,7 @@ const Events = () => {
             decoding="async"
             loading="lazy"
             className="object-cover w-full h-72 rounded-md shadow-md"
-            src="https://amilla.com/wp-content/uploads/2023/05/accommodations-reef-water-overview.jpg"
+             src="/images/aachal-event-3.jpg"
             alt="Reef Water Villas"
             layout="responsive"
             width={400}

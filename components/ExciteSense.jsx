@@ -9,7 +9,7 @@ const ExiteSense = () => {
       </h2>
 
       {/* Description with centered margin */}
-      <div className="text-gray-600 text-lg md:text-xl leading-relaxed text-center md:mx-[30%] my-6">
+      <div className="text-gray-600 text-lg md:text-xl leading-relaxed text-justify md:text-center md:mx-[30%] my-6">
         A decadent display of Maldivian and locally-sourced ingredients that span international cuisines, from freshly caught fish to Wellness Your Way menus. Dining at Amilla is warm, inviting, and unexpected. Each dish is a cultural story told by world-renowned chefs celebrating through culinary expression.
       </div>
 
@@ -21,7 +21,7 @@ const ExiteSense = () => {
             decoding="async"
             loading="lazy"
             className="object-cover w-full h-full rounded-md shadow-md"
-            src="https://amilla.com/wp-content/uploads/2023/05/home-dining-Feeling-Koi-1.jpg"
+            src="/images/aachal-sences-1.jpg"
             alt="Lagoon View"
           />
           <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
@@ -37,7 +37,7 @@ const ExiteSense = () => {
               decoding="async"
               loading="lazy"
               className="object-cover w-full h-56 md:h-72 rounded-md shadow-md"
-              src="https://amilla.com/wp-content/uploads/2023/04/home-dining-Cellar-full-res-1.jpg"
+              src="/images/aachal-sences-2.jpg"
               alt="Estate View"
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
@@ -51,7 +51,7 @@ const ExiteSense = () => {
               decoding="async"
               loading="lazy"
               className="object-cover w-full h-56 md:h-72 rounded-md shadow-md"
-              src="https://amilla.com/wp-content/uploads/2023/05/home-dining-sushi-1.jpg"
+              src="/images/aachal-event-2.jpg"
               alt="Reef Water Villas"
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">

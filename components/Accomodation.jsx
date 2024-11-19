@@ -8,7 +8,7 @@ const AccommodationSlider = () => {
         DISTINCTIVELY INCLUSIVE STAYS AT AMILLA
       </h2>
      {/* Description with centered margin */}
-     <div className="xlsb__description text-gray-600 text-lg md:text-xl leading-relaxed line-clamp-6 text-center md:mx-[30%] my-6">
+     <div className="xlsb__description text-gray-600 text-lg md:text-xl leading-relaxed line-clamp-6 md:text-center md:mx-[30%] my-6 text-justify">
         Your stay at Amilla Maldives provides flexibility and customisation, from half-board to full-board dining packages, complimentary excursions, wellness masterclasses and cultural activities.
       </div>
       {/* Background image */}
@@ -17,7 +17,7 @@ const AccommodationSlider = () => {
           decoding="async"
           loading="lazy"
           className="image lazy xlsb__slides-background object-cover w-full h-full"
-          src="https://amilla.com/wp-content/uploads/2023/05/home-accommodations-lagoon-1-scaled.jpg"
+          src="/images/aachal-header.jpg"
           alt="A Poolside View of our Luxury Villas in the Maldives"
           title="home-accommodations-lagoon"
           layout="responsive"

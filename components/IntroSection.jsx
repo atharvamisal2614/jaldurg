@@ -44,7 +44,7 @@ const IntroSection = () => {
   {/* Left large image */}
   <div className="col-span-2 z-50">
     <Image
-      src="/images/dummyimage-1.jpg"
+      src="/images/aachal-page22.jpg"
       alt="Luxury Poolside View"
       width={1200}
       height={800}
@@ -55,7 +55,7 @@ const IntroSection = () => {
   {/* Right small image */}
   <div className="flex items-end">
     <Image
-      src="/images/dummyimage-2.jpg"
+      src="/images/aachal-page21.jpg"
       alt="Beautiful Sunset View"
       width={600}
       height={800}
@@ -78,7 +78,7 @@ const IntroSection = () => {
         Inspiring connection, nourished by nature
       </h1>
     
-      <p className="text-gray-600 leading-relaxed mb-6">
+      <p className="text-gray-600 leading-relaxed mb-6 md:text-center text-justify">
         Explore one of the most spacious Maldives five-star resorts. Restore
         with the luxury of space to play. Villas and residences featuring large
         outdoor areas and private plunge pools, a liaison with nature for those
@@ -86,7 +86,7 @@ const IntroSection = () => {
         or a family vacation. Move at your pace with every excursion the Indian
         Ocean has to offer.
       </p>
-      <p className="text-gray-600 leading-relaxed mb-6">
+      <p className="text-gray-600 leading-relaxed mb-6 md:text-center text-justify">
         As part of the Small Luxury Hotels Considerate Collection,
         sustainability and wellness are at our core. Most of our island is an
         untouched jungle fringed by brilliant white sand beaches. The only
@@ -103,7 +103,7 @@ const IntroSection = () => {
     {/* Right Image */}
     <div>
       <img
-        src="/images/dummyimage-3.jpg"
+        src="/images/aachal-header.jpg"
         alt="Island view"
         className="w-full h-auto rounded-lg shadow-lg"
       />
