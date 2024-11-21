@@ -41,7 +41,7 @@ const IntroSection = () => {
         <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
           Nestled amidst lush greenery and azure waters, Jaldurga Resort is a
           sanctuary of relaxation and rejuvenation. With breathtaking views and
-          exceptional hospitality, it's your gateway to an unforgettable escape.
+          exceptional hospitality, it&apos;s your gateway to an unforgettable escape.
         </p>
 
         {/* Button */}
