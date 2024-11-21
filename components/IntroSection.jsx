@@ -1,123 +1,146 @@
 import Image from "next/image";
+
 const IntroSection = () => {
-    return (
-      <section className="relative bg-white py-20">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 z-10">
-          <picture>
-            <img
-              src="https://amilla.com/wp-content/themes/amilla/src/img/intro-bg.png"
-              alt="Background Pattern"
-              className="absolute right-0 top-0 w-1/3 h-1/2 object-cover opacity-80"
+  return (
+    <section className="relative bg-white py-20">
+      {/* Top Leaf Background */}
+      <div className="absolute inset-0 z-0">
+        <picture>
+          <Image width={1000} height={1000}
+            src="/images/leaf.png"
+            alt="Background Pattern"
+            className="absolute right-0 top-0 w-1/3 md:w-1/4 h-auto object-cover opacity-90"
+          />
+        </picture>
+      </div>
+
+      {/* Bottom Leaf Background */}
+      <div className="absolute inset-0 z-0">
+        <picture>
+          <Image width={1000} height={1000}
+            src="/images/leaf.png"
+            alt="Background Pattern Rotated"
+            className="absolute left-0 bottom-0 w-1/3 md:w-1/4 h-auto object-cover opacity-90 rotate-180"
+          />
+        </picture>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
+        {/* Label */}
+        <div className="text-sm uppercase tracking-wide text-customBlue font-medium mb-4">
+          A HAVEN OF LUXURY
+        </div>
+
+        {/* Main Heading */}
+        <h2 className="text-2xl md:text-3xl italic font text-customBlue leading-tight mb-6">
+          Experience Tranquility; Redefined Elegance
+        </h2>
+
+        {/* Description */}
+        <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
+          Nestled amidst lush greenery and azure waters, Jaldurga Resort is a
+          sanctuary of relaxation and rejuvenation. With breathtaking views and
+          exceptional hospitality, it's your gateway to an unforgettable escape.
+        </p>
+
+        {/* Button */}
+        <a
+          href="https://amilla.com/why-amilla/"
+          target="_self"
+          className="inline-block text-customOrange font-semibold py-3 px-8 rounded-md text-lg shadow-md transition-all duration-300"
+        >
+          Discover More
+        </a>
+      </div>
+
+      {/* Discover About Jaldurga Section */}
+      <div className="relative z-10 mt-16 max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl font-semibold text-customBlue text-center mb-12">
+          Discover About Jaldurga
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Card 1 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+            <Image
+              src="/images/jaldurga-bed.jpg"
+              alt="Luxury Villas"
+              width={400}
+              height={300}
+              className="object-cover w-full h-64"
             />
-          </picture>
-        </div>
-  
-        {/* Content */}
-        <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
-          {/* Label */}
-          <div className="text-sm uppercase tracking-wide text-teal-700 font-medium mb-4">
-            A NATURALLY LUSH PARADISE
+            <div className="p-6 flex-grow">
+              <h3 className="text-xl font-semibold text-customBlue mb-2">
+                Luxury Villas
+              </h3>
+              <p className="text-gray-600 text-center mb-4">
+                Experience unparalleled comfort in our spacious villas with
+                private pools and lush surroundings.
+              </p>
+              <a
+                href="#"
+                className="text-customOrange font-medium underline hover:no-underline"
+              >
+                Discover More
+              </a>
+            </div>
           </div>
-  
-          {/* Main Heading */}
-          <h2 className="text-4xl md:text-5xl italic font text-gray-800 leading-tight mb-6 ">
-            In harmony; with purpose
-          </h2>
-  
-          {/* Description */}
-          <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
-            Highly personalised, an immensely private island luxury resort nestled
-            in the Maldives, where moments expand across horizons.
-          </p>
-  
-          {/* Button */}
-          <a
-            href="https://amilla.com/why-amilla/"
-            target="_self"
-            className="inline-block bg-customTeal text-gray-700 font-semibold py-3 px-8 rounded-md text-lg hover:shadow-md transition-all duration-300"
-          >
-            Discover More
-          </a>
+
+          {/* Card 2 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+            <Image
+              src="/images/jaldurga-dining.jpg"
+              alt="Exquisite Dining"
+              width={400}
+              height={300}
+              className="object-cover w-full h-64"
+            />
+            <div className="p-6 flex-grow">
+              <h3 className="text-xl font-semibold text-customBlue mb-2">
+                Exquisite Dining
+              </h3>
+              <p className="text-gray-600 text-center mb-4">
+                Savor gourmet dishes crafted with local ingredients, offering a
+                culinary journey like no other.
+              </p>
+              <a
+                href="#"
+                className="text-customOrange font-medium underline hover:no-underline"
+              >
+                Discover More
+              </a>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+            <Image
+              src="/images/jaldurga-adventure.jpg"
+              alt="Island Adventures"
+              width={400}
+              height={300}
+              className="object-cover w-full h-64"
+            />
+            <div className="p-6 flex-grow">
+              <h3 className="text-xl font-semibold text-customBlue mb-2">
+                Island Adventures
+              </h3>
+              <p className="text-gray-600 text-center mb-4">
+                Dive into the crystal-clear waters, explore the coral reefs, and
+                embark on thrilling adventures.
+              </p>
+              <a
+                href="#"
+                className="text-customOrange font-medium underline hover:no-underline"
+              >
+                Discover More
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-8">
-  {/* Left large image */}
-  <div className="col-span-2 z-50">
-    <Image
-      src="/images/aachal-page22.jpg"
-      alt="Luxury Poolside View"
-      width={1200}
-      height={800}
-      className="w-full h-auto rounded-lg shadow-lg z-50"
-    />
-  </div>
+      </div>
+    </section>
+  );
+};
 
-  {/* Right small image */}
-  <div className="flex items-end">
-    <Image
-      src="/images/aachal-page21.jpg"
-      alt="Beautiful Sunset View"
-      width={600}
-      height={800}
-      className="w-full h-auto rounded-lg shadow-lg z-50"
-    />
-  </div>
-</div>
-
-<div className="container mx-auto px-4 md:px-8 py-12 relative">
-
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-
-    {/* Left Content */}
-    <div>
-      
-      <h2 className="text-sm font-semibold text-teal-700 uppercase tracking-wide mb-4">
-        Welcome to Amilla
-      </h2>
-      <h1 className="text-2xl md:text-3xl font-semibold italic text-gray-800 leading-tight mb-6">
-        Inspiring connection, nourished by nature
-      </h1>
-    
-      <p className="text-gray-600 leading-relaxed mb-6 md:text-center text-justify">
-        Explore one of the most spacious Maldives five-star resorts. Restore
-        with the luxury of space to play. Villas and residences featuring large
-        outdoor areas and private plunge pools, a liaison with nature for those
-        yearning for restoration or effervescent play in a honeymoon celebration
-        or a family vacation. Move at your pace with every excursion the Indian
-        Ocean has to offer.
-      </p>
-      <p className="text-gray-600 leading-relaxed mb-6 md:text-center text-justify">
-        As part of the Small Luxury Hotels Considerate Collection,
-        sustainability and wellness are at our core. Most of our island is an
-        untouched jungle fringed by brilliant white sand beaches. The only
-        footsteps are your own.
-      </p>
-      <a
-        href="#"
-        className="text-teal-700 font-medium underline hover:no-underline"
-      >
-        Explore the Island
-      </a>
-    </div>
-
-    {/* Right Image */}
-    <div>
-      <img
-        src="/images/aachal-header.jpg"
-        alt="Island view"
-        className="w-full h-auto rounded-lg shadow-lg"
-      />
-    </div>
-  </div>
-</div>
-
-
-
-      </section>
-    );
-  };
-  
-  export default IntroSection;
-  
-
-
+export default IntroSection;

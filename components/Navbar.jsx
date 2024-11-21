@@ -1,12 +1,19 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Image from 'next/image';
 
 const slides = [
   {
-    imageUrl: '/images/aachal-header.jpg',
+    imageUrl: '/images/jaldurga-home-1.jpg',
     link: '/stay',
   },
+ 
+  {
+    imageUrl: '/images/jaldurga-home-2.jpg',
+    link: '/stay',
+  },
+ 
 ];
 
 const Navbar = () => {
@@ -25,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="relative">
+    <header className="relative ">
       {/* Slider Container */}
       <div className="relative w-full h-screen overflow-hidden">
         {slides.map((slide, index) => (
@@ -44,92 +51,74 @@ const Navbar = () => {
       </div>
 
       {/* Logo */}
-      {/* <div className="absolute  left-1/2 transform -translate-x-1/2 z-50">
+      <div className="absolute top-4 left-4 z-50">
         <Link href="/">
-          <img
-            src="/aachal-resort-logo.png"
-            alt=" Resort Logo"
-            className="w-16 h-16 object-contain md:w-28 md:h-28" 
+          <Image height={1000} width={1000}
+            src="/jaldurga-logo.png"
+            alt="Resort Logo"
+            className="w-16 h-16 object-contain md:w-20 md:h-20"
           />
         </Link>
-      </div> */}
+      </div>
 
       {/* Hamburger Menu Button */}
       <button
         onClick={toggleMenu}
-        className="absolute top-0 left-0 text-white bg-aqua px-3 py-2 rounded focus:outline-none z-50"
+        className="absolute top-4 right-4 text-white bg-black bg-opacity-60 px-3 py-2 rounded focus:outline-none z-50"
       >
         {isOpen ? <FaTimes size={32} /> : <FaBars size={32} />}
       </button>
 
-      {/* Reserve Your Room Button */}
-      <Link
-        href="/reserve"
-        className="absolute right-0 top-0 text-gray-700 font-sans text-sm md:text-lg leading-loose px-4 py-2 rounded font-medium bg-customTeal transition-all"
-      >
-        RESERVE YOUR ROOM
-      </Link>
-
-      {/* Mobile Navbar Menu */}
+      {/* Full-Screen Hamburger Menu */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-white z-40 transform transition-transform duration-300 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+          isOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
         style={{
           backgroundImage: `url(${slides[0].imageUrl})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: '0.7', 
+          opacity: '0.9',
         }}
       >
-        <div className="flex h-full">
-          {/* Menu Section */}
-          <div className="w-full bg-gray-200 p-4 flex flex-col justify-center items-center">
-            <nav className="flex flex-col space-y-6 text-lg font-semibold">
-              <Link
-                href="/"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                Home
-              </Link>
-              <Link
-                href="/about"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                About Us
-              </Link>
-              <Link
-                href="/stay"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                Accommodations
-              </Link>
-              <Link
-                href="/gallery"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                Gallery
-              </Link>
-              <Link
-                href="/contact"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                Contact Us
-              </Link>
-              <Link
-                href="/reserve"
-                onClick={toggleMenu}
-                className="text-black hover:text-customTeal hover:scale-110 transition-all"
-              >
-                Reserve Your Room
-              </Link>
-            </nav>
-          </div>
+        <div className="w-full h-full flex flex-col items-center justify-center bg-gray-200 bg-opacity-90 p-4">
+          <nav className="flex flex-col space-y-6 text-2xl font-bold">
+            <Link
+              href="/"
+              onClick={toggleMenu}
+              className="text-black hover:text-customOrange hover:scale-110 transition-all"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              onClick={toggleMenu}
+              className="text-black hover:text-customOrange hover:scale-110 transition-all"
+            >
+              About Us
+            </Link>
+            <Link
+              href="/stay"
+              onClick={toggleMenu}
+              className="text-black hover:text-customOrange hover:scale-110 transition-all"
+            >
+              Accommodations
+            </Link>
+            <Link
+              href="/gallery"
+              onClick={toggleMenu}
+              className="text-black hover:text-customOrange hover:scale-110 transition-all"
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/contact"
+              onClick={toggleMenu}
+              className="text-black hover:text-customOrange hover:scale-110 transition-all"
+            >
+              Contact Us
+            </Link>
+          </nav>
         </div>
       </div>
     </header>

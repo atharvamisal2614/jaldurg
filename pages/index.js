@@ -2,11 +2,12 @@ import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import IntroSection from "@/components/IntroSection";
 import AccommodationSlider from "@/components/Accomodation";
-import Experiences from "@/components/Experiences";
 import Events from "@/components/Events";
 import ExiteSense from "@/components/ExciteSense";
 import ContactUs from "@/components/Contact";
+import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,11 +26,12 @@ export default function Home() {
 <Navbar />
 <IntroSection />
 <AccommodationSlider />
-<Experiences />
 <Events/>
 <ExiteSense/>
 <ContactUs />
-<Footer />
+<Gallery />
+<Footer/>
+{/* <Footer /> */}
 
 
 </>

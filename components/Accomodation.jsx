@@ -1,55 +1,23 @@
-import Image from 'next/image';
 
-const AccommodationSlider = () => {
+const FineDining = () => {
+  const sectionStyle = {
+    backgroundImage: "url('/images/jaldurga-parallex.jpg')",
+    backgroundAttachment: "fixed",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh", 
+  };
+
   return (
-    <div className="xlsb relative">
-      {/* Title at the top center */}
-      <h2 className="xlsb__title text-md text-customTeal text-center">
-        DISTINCTIVELY INCLUSIVE STAYS AT AMILLA
-      </h2>
-     {/* Description with centered margin */}
-     <div className="xlsb__description text-gray-600 text-lg md:text-xl leading-relaxed line-clamp-6 md:text-center md:mx-[30%] my-6 text-justify">
-        Your stay at Amilla Maldives provides flexibility and customisation, from half-board to full-board dining packages, complimentary excursions, wellness masterclasses and cultural activities.
+    <div style={sectionStyle} className="relative">
+      <div className="flex items-center justify-center h-full bg-black bg-opacity-40">
+        <div className="text-center text-white p-8">
+          <h1 className="text-xl md:text-2xl font-bold mb-4 font-serif">Enjoy Views With Our Special Rooms</h1>
+          <h2 className="text-2xl md:text-3xl font-semibold font-serif">Taste the multiple Essence and <br/>  Dishes at Jaldurga Agro Resort.</h2>
+        </div>
       </div>
-      {/* Background image */}
-      <div className="xlsb__slides relative">
-        <img
-          decoding="async"
-          loading="lazy"
-          className="image lazy xlsb__slides-background object-cover w-full h-full"
-          src="/images/aachal-header.jpg"
-          alt="A Poolside View of our Luxury Villas in the Maldives"
-          title="home-accommodations-lagoon"
-          layout="responsive"
-          width={1200}
-          height={800}
-        />
-      </div>
-
-     
-
-      {/* Explore Accommodation button centered without rounded edges */}
-      <div className="text-center mt-8">
-  {/* <a
-    href="https://amilla.com/maldives-accommodations/"
-    target="_self"
-    className="button button_variant-primary xlsb__link bg-customTeal text-black font-semibold leading-loose py-3 px-8 text-lg  hover:bg-teal-800 inline-block"
-  >
-    <span className="xlsb__link heading normal ">Explore Accommodation</span>
-  </a> */}
-
-  <a
-            href="https://amilla.com/why-amilla/"
-            target="_self"
-            className="inline-block bg-customTeal text-gray-700 font-semibold py-3 px-8 rounded-md text-lg hover:shadow-md transition-all duration-300"
-          >
-            Explore More
-          </a>
-</div>
-
-<br/> <br/> <br/>
     </div>
   );
 };
 
-export default AccommodationSlider;
+export default FineDining;

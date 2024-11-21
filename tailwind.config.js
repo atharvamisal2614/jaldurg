@@ -11,9 +11,8 @@ module.exports = {
         greatVibes: ['"greatvibes-regular"', 'sans-serif'],
       },
       colors: {
-        customTeal: '#25cfc5',
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customBlue: '#02394e',
+        customOrange : '#e72a22'
       },
     },
   },
