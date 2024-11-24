@@ -3,11 +3,13 @@ import Navbar from "@/components/Navbar";
 import IntroSection from "@/components/IntroSection";
 import AccommodationSlider from "@/components/Accomodation";
 import Events from "@/components/Events";
-import ExiteSense from "@/components/ExciteSense";
+import Games from "@/components/Games";
 import ContactUs from "@/components/Contact";
 import Gallery from "@/components/Gallery";
+import Rooms from "@/components/Rooms";
+import Testimonials from "@/components/Testimonials";
+import NearbyPlaces from "@/components/NearByPlaces";
 import Footer from "@/components/Footer";
-// import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,10 +26,13 @@ export default function Home() {
   return (
     <>
 <Navbar />
+<Rooms />
 <IntroSection />
 <AccommodationSlider />
 <Events/>
-<ExiteSense/>
+<Games />
+<Testimonials />
+<NearbyPlaces />
 <ContactUs />
 <Gallery />
 <Footer/>

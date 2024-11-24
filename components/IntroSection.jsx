@@ -2,7 +2,9 @@ import Image from "next/image";
 
 const IntroSection = () => {
   return (
+    
     <section className="relative bg-white py-20">
+ 
       {/* Top Leaf Background */}
       <div className="absolute inset-0 z-0">
         <picture>
