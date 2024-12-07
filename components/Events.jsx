@@ -9,18 +9,18 @@ const Events = () => {
           {/* Paragraph */}
           <div>
             <h2 className="text-2xl text-customBlue font-semibold uppercase mb-4">
-              Jaldurga Restaurant
+              Jaldurg Restaurant
             </h2>
             <p className="text-gray-600 text-lg md:text-xl leading-relaxed text-justify">
-              At Jaldurga Restaurant, experience a unique blend of nature and gastronomy. 
+              At Jaldurg Restaurant, experience a unique blend of nature and gastronomy. 
               Nestled near the serene lake, the restaurant offers breathtaking views that 
               enhance the dining experience. Guests can savor authentic Indian cuisine, 
               prepared with fresh, locally sourced ingredients, in a tranquil setting. 
               Whether enjoying a traditional meal or indulging in innovative flavors, 
               every dish celebrates the richness of Indian culture and culinary expertise.
-              Ideal for family gatherings, romantic dinners, or quiet retreats, Jaldurga 
+              Ideal for family gatherings, romantic dinners, or quiet retreats, Jaldurg 
               Restaurant creates an atmosphere of relaxation and indulgence. The stunning 
-              views and views and relaxation and indulgence at Jaldurga Restaurant dinners.
+              views and views and relaxation and indulgence at Jaldurg Restaurant dinners.
             </p> 
           </div>
 
@@ -32,11 +32,11 @@ const Events = () => {
               decoding="async"
               loading="lazy"
               className="object-cover w-full h-72 rounded-md shadow-md"
-              src="/images/jaldurga-gallery-8.jpg"
+              src="/images/jaldurga-gallery-5.jpg"
               alt="Jaldurga Restaurant"
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
-              <p className="text-white text-lg font-semibold">Jaldurga Restaurant</p>
+              <p className="text-white text-lg font-semibold">Jaldurg Restaurant</p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const Events = () => {
               decoding="async"
               loading="lazy"
               className="object-cover w-full h-72 rounded-md shadow-md"
-              src="/images/jaldurga-home-2.jpg"
+              src="/images/jaldurga-gallery-4.jpg"
               alt="Lagoon View"
             />
             <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">

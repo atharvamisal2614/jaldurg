@@ -19,7 +19,12 @@ const Rooms = () => {
 
       {/* Description with centered margin */}
       <div className="text-gray-700 text-lg md:text-xl leading-relaxed text-justify md:text-center mx-auto max-w-4xl mb-12">
-      The luxury rooms at Jaldurga Agro Resort offer an exquisite retreat, combining modern comforts with the charm of nature. Each room is thoughtfully designed to provide a serene and opulent experience, featuring elegant furnishings, cozy bedding, and large windows that frame breathtaking views of lush greenery and the nearby tranquil lake. Guests can unwind in spacious, air-conditioned interiors adorned with earthy tones that reflect the resort&apos;s connection to its natural surroundings. Whether you seek a peaceful getaway or a luxurious stay amid nature, these rooms promise an unforgettable experience with unparalleled comfort and warmth.
+      The luxury rooms at Jaldurg Agro Resort offer an exquisite retreat, combining modern comforts with the charm of nature. 
+      Each room is thoughtfully designed to provide a serene and opulent experience, featuring elegant furnishings, 
+      cozy bedding, and large windows that frame breathtaking views of lush greenery and the nearby tranquil lake. 
+      Guests can unwind in spacious, air-conditioned interiors adorned with earthy tones that reflect the resort&apos;s 
+      connection to its natural surroundings. Whether you seek a peaceful getaway or a luxurious stay amid nature, 
+      these rooms promise an unforgettable experience with unparalleled comfort and warmth.
       </div>
 
       {/* Images Layout */}

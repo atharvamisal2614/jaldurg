@@ -4,12 +4,13 @@ import IntroSection from "@/components/IntroSection";
 import AccommodationSlider from "@/components/Accomodation";
 import Events from "@/components/Events";
 import Games from "@/components/Games";
-import ContactUs from "@/components/Contact";
 import Gallery from "@/components/Gallery";
 import Rooms from "@/components/Rooms";
 import Testimonials from "@/components/Testimonials";
 import NearbyPlaces from "@/components/NearByPlaces";
 import Footer from "@/components/Footer";
+import Food from "@/components/Food";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,8 +33,8 @@ export default function Home() {
 <Events/>
 <Games />
 <Testimonials />
+<Food />
 <NearbyPlaces />
-<ContactUs />
 <Gallery />
 <Footer/>
 {/* <Footer /> */}

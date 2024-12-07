@@ -30,7 +30,7 @@ const NearbyPlaces = () => {
                 className="w-full h-64 object-cover rounded-md shadow-lg group-hover:opacity-80 transition duration-300"
               />
               {/* Overlay Text */}
-              <div className="absolute bottom-0 w-full text-lg bg-black bg-opacity-70 text-white text-center py-2  font-medium">
+              <div className="absolute bottom-0 w-full text-lg bg-customBlue bg-opacity-90 text-customOrange text-center py-2  font-medium">
                 {place.name}
               </div>
             </div>

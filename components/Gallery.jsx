@@ -196,8 +196,43 @@ const Gallery = () => {
             src={"/images/jaldurga-gallery-14.jpg"}
             alt=""
           />
-         
-         
+
+
+          <Image
+            className="p-3 md:w-1/4 w-1/2 cursor-pointer "
+            width={500}
+            height={500}
+            onClick={() => setImage("/images/tent-1.jpg")}
+            src={"/images/tent-1.jpg"}
+            alt=""
+          />
+
+          <Image
+            className="p-3 md:w-1/4 w-1/2 cursor-pointer "
+            width={500}
+            height={500}
+            onClick={() => setImage("/images/tent-2.jpg")}
+            src={"/images/tent-2.jpg"}
+            alt=""
+          />
+
+          <Image
+            className="p-3 md:w-1/4 w-1/2 cursor-pointer "
+            width={500}
+            height={500}
+            onClick={() => setImage("/images/tent-3.jpg")}
+            src={"/images/tent-3.jpg"}
+            alt=""
+          />
+
+          <Image
+            className="p-3 md:w-1/4 w-1/2 cursor-pointer "
+            width={500}
+            height={500}
+            onClick={() => setImage("/images/tent-4.jpg")}
+            src={"/images/tent-4.jpg"}
+            alt=""
+          />
         </div>
       </div>
     </>

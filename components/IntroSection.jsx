@@ -41,7 +41,7 @@ const IntroSection = () => {
 
         {/* Description */}
         <p className="text-gray-600 text-lg md:text-xl leading-relaxed mb-8">
-          Nestled amidst lush greenery and azure waters, Jaldurga Resort is a
+          Nestled amidst lush greenery and azure waters, Jaldurg Resort is a
           sanctuary of relaxation and rejuvenation. With breathtaking views and
           exceptional hospitality, it&apos;s your gateway to an unforgettable escape.
         </p>
@@ -59,7 +59,7 @@ const IntroSection = () => {
       {/* Discover About Jaldurga Section */}
       <div className="relative z-10 mt-16 max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-semibold text-customBlue text-center mb-12">
-          Discover About Jaldurga
+          Discover About Jaldurg
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1 */}

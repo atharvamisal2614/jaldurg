@@ -76,9 +76,8 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg uppercase mb-4">Contact Us</h3>
             <ul className="space-y-2">
-              <li className="text-gray-100">+960 123 4567</li>
+              <li className="text-gray-100">+91 99212 41370</li>
               <li className="text-gray-100">info@jaldurg.com</li>
-              <li className="text-gray-100">Baa Atoll, Indias</li>
               <li>
                 <a href="#" className="text-gray-100 hover:text-customTeal transition">Get Directions</a>
               </li>
