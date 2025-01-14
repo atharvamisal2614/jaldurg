@@ -76,11 +76,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg uppercase mb-4">Contact Us</h3>
             <ul className="space-y-2">
-              <li className="text-gray-100">+91 99212 41370</li>
+              <li className="text-gray-100">+91 76664 17493</li>
               <li className="text-gray-100">info@jaldurg.com</li>
-              <li>
-                <a href="#" className="text-gray-100 hover:text-customTeal transition">Get Directions</a>
-              </li>
+              <li className="text-gray-100">Jaldurg Agro Resort,<br/>Paud-Lonavala roal, Mulashi, Pune-412108</li>
             </ul>
           </div>
         </div>
